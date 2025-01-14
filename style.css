@@ -51,6 +51,15 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   }
+
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table {
+    word-wrap: break-word;
+  }
+  
   
   
   
