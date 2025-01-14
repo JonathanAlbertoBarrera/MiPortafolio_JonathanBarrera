@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Jonathan Barrera</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-dark text-white text-center py-5" id="inicio">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <img src="assets/logoJava.svg" class="navbar-brand logo" alt="Logo Java">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+            <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>Mi Portafolio</h1>
+    <p>Jonathan Alberto Barrera Calderón  | 2025</p>
+  </header>
+
+  <!-- Sobre mí -->
+  <section class="container my-5" id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Hola, soy un estudiante del TSU: Desarrollo de Software Multiplataforma, con un perfil orientado al Backend. 
+        Habilidades en herramientas backend como Java, Spring boot, Jakarta EE.
+        Mi objetivo profesional es desarrollar mi carrera como desarrallador web ampliando mi conocimiento hasta lograr ser 
+        desarrollador web fullstack.
+    </p>
+    
+    <section class="py-5 bg-light" id="sobre-mi">
+        <div class="container">
+          <p class="text-center mb-4">Hobbies e intereses</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <i class="bi bi-bookmark-check-fill"></i> Deportes(en especial basquetbol y futbol).
+            </li>
+            <li class="list-group-item">
+                <i class="bi bi-bookmark-check-fill"></i>Lectura de ciencia, ciencia ficción y tecnología.
+            </li>
+            <li class="list-group-item">
+                <i class="bi bi-bookmark-check-fill"></i> Ciencias como las matemáticas y astronomía.
+            </li>
+            <li class="list-group-item">
+                <i class="bi bi-bookmark-check-fill"></i> Aprendizaje de idiomas (actualmente mejorando mi inglés)
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+  </section>
+
+  <!-- Proyectos -->
+  <section class="container my-5" id="proyectos">
+    <h2>Proyectos</h2>
+    <!-- Tabla de proyectos -->
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Descripción</th>
+          <th>Tecnología</th>
+          <th>Enlace</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sistema de órdenes de cafetería</td>
+          <td>Aplicación web para agilizar la creación y gestión de las solicitudes/órdenes</td>
+          <td>Jakarta EE: JSP y Servlets. HTML, CSS, JS y Bootstrap</td>
+          <td><a href="https://github.com/JonathanAlbertoBarrera/SISOC_INTEGRADORA" target="_blank">Repositorio</a></td>
+        </tr>
+        <tr>
+          <td>API Bitácora</td>
+          <td>API REST para gestión de bitácora de equipos de cómputo: (Laboratorios,Alumnos,Equipos de cómputo y registros de uso de las Pc)</td>
+          <td>Spring Boot, Spring Data JPA,Spring Security</td>
+          <td><a href="https://github.com/JonathanAlbertoBarrera/apiBitacora" target="_blank">Repositorio</a></td>
+        </tr>
+        <tr>
+          <td>API PERSONAS + CONSUMO MÓVIL</td>
+          <td>API REST de gestión de personas + consumo en app móvil Android</A></td>
+          <td>Spring Boot, Spring Data JPA, Kotlin</td>
+          <td><a href="https://github.com/JonathanAlbertoBarrera/PERSONAS_API" target="_blank">Repositorio API</a>
+            <a href="https://github.com/JonathanAlbertoBarrera/Android_U2P2_Practica" target="_blank">Repositorio Consumo</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Galería -->
+    <section id="galeria" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Galería</h2>
+          <div class="row g-3">
+            <p class="text-center"><b>Sistema de órdenes de cafetería</b></p>
+            <div class="col-md-6">
+              <div class="image-container">
+                <img src="assets/SISOC.PNG" class="img-fluid" alt="Proyecto SISOC">
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image-container">
+                  <img src="assets/SISOC2.PNG" class="img-fluid" alt="Proyecto SISOC 2">
+                </div>
+              </div>
+            <p class="text-center"><b>Api Bitácora</b></p>
+            <div class="col-md-6">
+              <div class="image-container">
+                <img src="assets/API1.PNG" class="img-fluid" alt="Proyecto API BITACORA IMAGEN">
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image-container">
+                  <img src="assets/apiBitacoraEndpoints.jpg" class="img-fluid" alt="Proyecto API BITACORA IMAGEN">
+                </div>
+              </div>
+            <p class="text-center"><b>API PERSONAS + CONSUMO MÓVIL</b></p>
+            <div class="col-md-6">
+              <div class="image-container">
+                <img src="assets/androidApp.jpg" class="img-fluid" alt="Proyecto API PERSONAS + CONSUMO ANDROID">
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image-container">
+                  <img src="assets/android2.jpg" class="img-fluid" alt="Proyecto API PERSONAS + CONSUMO ANDROID 2">
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      
+  </section>
+
+  <!-- Contacto -->
+  <section class="container my-5" id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Jonathan Barrera | <a href="https://www.linkedin.com/in/jonathan-alberto-barrera-calder%C3%B3n-278b24346/" target="_blank" class="text-white">LinkedIn</a> | <a href="https://github.com/JonathanAlbertoBarrera" target="_blank" class="text-white">GitHub</a> | <a href="#inicio" class="text-white">Inicio</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
